@@ -1,0 +1,244 @@
+
+/*Header*/
+
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+}
+ul li a{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: red;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: rgba(0,0,0,0.7) 0.5s ease;
+}
+
+h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+span{
+    color: #dd8506;
+}
+
+#button_nav{
+    background-color: #dd8506;
+    cursor: pointer;
+}
+
+#cancel{
+    display: none;
+}
+
+.navbar .navbar-nav>li>.active, .navbar .navbar-nav>li>a:hover{
+    color: #dd8506;
+}
+
+.navbar .navbar-nav>li>a, .navbar .navbar-nav>li>a:focus{
+    color: #fff;
+}
+
+
+.header{
+    background: url(/Images/company-research-digitalisierung-teaser.jpeg) fixed;
+    background-size: cover;
+    min-height: 100vh;;
+    position: relative;
+}
+
+.bg-color{
+    background-color: rgba(0, 0, 0,0.7);
+    min-height: 100vh;
+}
+
+/* Wrapper */
+
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.infos{
+    text-align: center;
+    padding: 18%;
+    margin-top: 5%;
+}
+.subtitle{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.title{
+    font-size: 74px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px
+}
+.infos-para{
+    margin-bottom: 20px;
+}
+
+.buttons{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#bt1{
+    background-color: #dd8506;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 30px 10px 30px;
+}
+#bt2{
+    border: #dd8506 1px solid;
+    color : #dd8506;
+    margin-left: 15px;
+    padding: 10px 30px 10px 30px;
+    text-transform: uppercase;
+}
+#bt2:hover{
+    background-color: #dd8506;
+    color: #fff;
+}
+.socials .social-items{
+    display: inline-block;
+    margin: 0 10px;
+    color: #dd8506;
+}
+.chevrondown{
+    color: #dd8506;
+    position: absolute;
+    bottom: 30px;
+}
+
+/* About me */
+.about{
+    background-color: #fafafa;
+    color: black;
+}
+
+.about_content{
+    margin-top: 5%;
+}
+
+h3{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.heading-sec__main, #contacter{
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.heading-sec__sub{
+    font-size: 20px;
+    color: #666;
+}
+
+h4{
+    margin-bottom: 5%;
+    font-weight: 700;
+}
+
+
+.parcours_para{
+    padding-bottom: 5%;
+}
+
+#button_contact{
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    display: inline-block;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0,0.2);
+    margin-bottom: 5%;
+    background-color: #dd8506;
+    color: #fff;
+}
+
+.skill-items{
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.3rem;
+    background: rgba(153,153,153,0.2);
+    border-radius: 5px;
+    font-weight: 500;
+    color: #666;
+}
+
+/* Contact */
+.contact{
+    background: linear-gradient(rgba(245,245,245,0.8),rgba(245,245,245,0.8)), url(https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg);
+    background-size: cover;
+    background-position: center;
+    color: #666;
+    padding-bottom: 5rem;
+}
+
+.contact_form-container{
+    box-shadow: rgba(100,100,111,0.2) 0 20px 29px 0;
+    background: #fff;
+    padding: 4rem 4rem;
+    max-width: 60rem;
+    width: 95%;
+    border-radius: 5px;
+    margin: 5rem auto 4rem auto;
+}
+
+.contact_form-field{
+    margin-bottom: 3rem;
+}
+
+.contact_form-label{
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 2%;
+    font-size: 1.4rem;
+}
+
+.contact_form-input{
+    color: #333;
+    padding: 1rem;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+#buttons_submit{
+    float: right;
+    padding: 1rem 3rem;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+    background-color: #dd8506;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*Footer*/
+.main-footer{
+    padding: 3rem;
+    color: #333;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+#footer_name{
+    color: #dd8506;
+}
+
+
+
+
